@@ -1,0 +1,47 @@
+.header {
+  position: fixed;
+  z-index: 99999;
+}
+.max-width {
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+}
+.header-nav {
+  position: fixed;
+  right: 0;
+  left: 0;
+}
+.header-brand {
+  color: #fff;
+  font-size: 40px;
+  line-height: 70px;
+  padding: 18px 0;
+  display: inline-block;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+.menu {
+  float: right;
+  margin-right: 20px;
+  margin-top: 16px;
+}
+.menu .menu-item {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+.menu .menu-item .menu-item-link {
+  color: #fff;
+  text-transform: uppercase;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+}
+.menu .menu-item .active,
+.menu .menu-item .menu-item-link:hover {
+  color: #fff;
+}
+.nav-toggle {
+  cursor: pointer;
+}
