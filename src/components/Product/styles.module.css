@@ -1,0 +1,149 @@
+* {
+  transition: 0.5s;
+  text-decoration: none;
+}
+.product {
+  padding-top: 1.5rem;
+  padding-bottom: 100px;
+}
+.title-container {
+  max-width: 625px;
+  position: relative;
+  text-align: center;
+  margin: -9px auto 60px;
+}
+.title {
+  display: inline-block;
+  font-size: 20px;
+  color: #1dd3f8;
+  margin-bottom: 5px;
+}
+.roboto-400 {
+  font-weight: 400;
+  line-height: 36px;
+  font-family: Roboto, sans-serif;
+}
+.dosis-700 {
+  font-weight: 700;
+  font-family: Dosis, sans-serif;
+}
+.p {
+  line-height: 48px;
+}
+.desc {
+  font-size: 15px;
+  color: #212121;
+  line-height: 27px;
+}
+.category-product {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.dosis-700 {
+  font-weight: 700;
+  font-family: Dosis, sans-serif;
+}
+.name {
+  font-size: 22px;
+  line-height: 26px;
+  color: #212121;
+}
+.wrapper-li {
+  background-color: #fff;
+  border-radius: 60px 0 0 60px;
+  margin-bottom: 20px;
+  display: inline-block;
+  cursor: pointer;
+  padding: 39px 30px 30px 40px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1000;
+}
+
+.wrapper-li::before {
+  content: "";
+  background-color: #1dd3f8;
+  height: 100%;
+  width: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.5s;
+  z-index: -1;
+}
+
+.wrapper-li:hover h3 {
+  color: #fff;
+}
+
+.wrapper-li-icon {
+  transition: transform 0.5s;
+}
+
+.wrapper-li:hover .wrapper-li-icon {
+  color: #fff !important;
+  transform: rotate(360deg);
+}
+.wrapper-li:hover.wrapper-li::before {
+  width: 100%;
+}
+
+.box-shadow {
+  box-shadow: 0 0 20px 3px rgba(65, 63, 63, 0.05);
+}
+.wrapper-li:hover {
+}
+.more-product {
+  padding-top: 1.5rem;
+}
+.dosis-600 {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 27px;
+  color: #212121;
+  font-family: Dosis, sans-serif;
+}
+
+.button {
+  margin-top: 15px;
+  display: inline-block;
+  font-weight: 600;
+  color: #fff !important;
+  padding: 18px 35px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #1dd3f8;
+}
+.roboto-600 {
+  font-weight: 600;
+  line-height: 15px;
+  font-family: Roboto, sans-serif;
+}
+@media (min-width: 992px) {
+  .category-product {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .wrapper-ul {
+    display: inline-block;
+    width: 45%;
+    margin: 0 10px 10px;
+  }
+}
+@media (min-width: 992px) {
+  .more-product {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+@media (min-width: 992px) {
+  .image-product {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}

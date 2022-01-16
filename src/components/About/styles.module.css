@@ -49,7 +49,6 @@
   border-radius: 4px;
   margin-bottom: 30px;
   padding: 25px 20px 25px 15px;
-  width: 25%;
   background-color: #fff;
 }
 .single-offer:hover {
@@ -57,4 +56,30 @@
 }
 .wrapper-content {
   margin-left: 8px;
+}
+.wrapper-row {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 576px) {
+  .box1 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+@media (min-width: 992px) {
+  .box1 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+  }
+}
+.box {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
