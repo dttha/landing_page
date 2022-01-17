@@ -7,7 +7,7 @@ import About from './components/About';
 import Environment from './components/Environment';
 import Product from './components/Product';
 import News from './components/News';
-import Contact from './components/Contact';
+import Partner from './components/Partner';
 import Footer from './components/Footer';
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
         <Product />
         <Environment />
         <News />
-        <Contact />
+        <Partner />
         <Footer />
       </div>
     </React.Fragment>

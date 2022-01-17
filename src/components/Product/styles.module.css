@@ -109,6 +109,7 @@
 
 .button {
   margin-top: 15px;
+  margin-bottom: 10px;
   display: inline-block;
   font-weight: 600;
   color: #fff !important;
@@ -124,8 +125,8 @@
 }
 @media (min-width: 992px) {
   .category-product {
-    flex: 0 0 25%;
-    max-width: 25%;
+    flex: 0 0 30%;
+    max-width: 30%;
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
@@ -137,8 +138,8 @@
 }
 @media (min-width: 992px) {
   .more-product {
-    flex: 0 0 50%;
-    max-width: 50%;
+    flex: 0 0 45%;
+    max-width: 45%;
   }
 }
 @media (min-width: 992px) {
