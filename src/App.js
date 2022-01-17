@@ -4,9 +4,9 @@ import React from 'react';
 import Header from './components/Header';
 import Home from './components/Home';
 import About from './components/About';
-import Interest from './components/Interest';
+import Environment from './components/Environment';
 import Product from './components/Product';
-import Project from './components/Project';
+import News from './components/News';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -18,8 +18,8 @@ function App() {
         <Home />
         <About />
         <Product />
-        <Interest />
-        <Project />
+        <Environment />
+        <News />
         <Contact />
         <Footer />
       </div>

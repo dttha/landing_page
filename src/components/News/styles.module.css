@@ -1,0 +1,109 @@
+* {
+  transition: 0.5s;
+  text-decoration: none;
+}
+.news {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.title-container {
+  max-width: 625px;
+  text-align: center;
+  margin: -9px auto 60px;
+}
+.title {
+  display: inline-block;
+  font-size: 20px;
+  color: #1dd3f8;
+  margin-bottom: 5px;
+}
+.roboto-400 {
+  font-weight: 400;
+  line-height: 36px;
+  font-family: Roboto, sans-serif;
+}
+.dosis-700 {
+  font-weight: 700;
+  font-family: Dosis, sans-serif;
+}
+.p {
+  line-height: 48px;
+}
+.desc {
+  font-size: 15px;
+  color: #212121;
+  line-height: 27px;
+}
+.single-news {
+  margin-bottom: 30px;
+}
+
+.single-news:hover .name {
+  color: #1dd3f8;
+}
+
+.single-news:hover .read-more {
+  color: #fff;
+  background-color: #1dd3f8;
+  border: 1px solid #1dd3f8;
+}
+
+.image-news {
+  position: relative;
+  z-index: 1000;
+}
+
+.date {
+  color: #fff;
+  background-color: #1dd3f8;
+  font-size: 15px;
+  padding: 5px 10px;
+  position: absolute;
+  top: 0;
+  font-family: Roboto, sans-serif;
+}
+
+.date::before {
+  top: 0;
+  left: -200px;
+  position: absolute;
+  transition: all 0.5s;
+  content: "";
+  z-index: -1;
+}
+
+.content-news {
+  box-shadow: 0 0 20px 3px rgba(88, 85, 85, 0.05);
+  padding: 25px;
+  min-height: 300px;
+  position: relative;
+}
+.name {
+  font-size: 22px;
+  line-height: 26px;
+  color: #212121;
+}
+.roboto-600 {
+  font-weight: 600;
+  line-height: 25px;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  color: #4d4d4d;
+}
+
+.read-more {
+  border: 1px solid #4d4d4d;
+  padding: 5px 15px;
+  border-radius: 4px;
+  bottom: 50px;
+  position: absolute;
+}
+
+.wrapper-icon {
+  font-size: 20px;
+  top: 3px;
+  left: 3px;
+  line-height: 19px;
+  padding-left: 5px;
+  padding-top: 4px;
+}

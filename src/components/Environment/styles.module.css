@@ -1,0 +1,41 @@
+* {
+  transition: 0.5s;
+  text-decoration: none;
+}
+.environment {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #f2fefe;
+}
+.title-container {
+  max-width: 625px;
+  position: relative;
+  text-align: center;
+  margin: -9px auto 60px;
+}
+.title {
+  display: inline-block;
+  font-size: 20px;
+  color: #1dd3f8;
+  margin-bottom: 5px;
+}
+.roboto-400 {
+  font-weight: 400;
+  line-height: 36px;
+  font-family: Roboto, sans-serif;
+}
+.dosis-700 {
+  font-weight: 700;
+  font-family: Dosis, sans-serif;
+}
+.p {
+  line-height: 48px;
+}
+.desc {
+  font-size: 15px;
+  color: #212121;
+  line-height: 27px;
+}
+.wrapper-card {
+  margin-bottom: 30px;
+}
