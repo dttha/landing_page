@@ -55,7 +55,7 @@ const Partner = () => {
                 <div className={styles["title-container"]}>
                     <h2 className={styles["p"] + " " + styles["dosis-700"]}>Chứng Chỉ</h2>
                     <div className={styles["certificate"]}>
-                        <img style={{ height: "150px", objectFit: "cover", width: "150px" }} src={require("../../assets/images/vtvlive.jpg")} />
+                        <img style={{ height: "120px", objectFit: "cover", width: "120px", marginTop: "25px" }} src={require("../../assets/images/certificate.png")} />
                     </div>
                 </div>
             </div>

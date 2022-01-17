@@ -1,7 +1,26 @@
-.max-width {
-  max-width: 1200px;
-  padding: 0 80px;
-  margin: auto;
+* {
+  transition: 0.5s;
+  text-decoration: none;
 }
-.border {
+
+.footer {
+  background-image: url(../../assets/images/footer.jpg);
+  padding-bottom: 70px;
+  padding-top: 100px;
+  background-size: cover;
+}
+.roboto-400 {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #d9d6d6;
+  font-family: Roboto, sans-serif;
+}
+.dosis-700 {
+  font-weight: 700;
+  font-family: Dosis, sans-serif;
+}
+.dosis-600 {
+  font-weight: 600;
+  font-family: Dosis, sans-serif;
 }
