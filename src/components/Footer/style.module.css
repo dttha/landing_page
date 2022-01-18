@@ -1,6 +1,7 @@
 * {
   transition: 0.5s;
   text-decoration: none;
+  list-style-type: none;
 }
 
 .footer {
@@ -23,4 +24,59 @@
 .dosis-600 {
   font-weight: 600;
   font-family: Dosis, sans-serif;
+}
+
+.underlined {
+  margin-bottom: 25px;
+  position: relative;
+  border-bottom: 2px solid #060c4a;
+  padding-bottom: 10px;
+}
+
+.underlined:before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 50px;
+  height: 2px;
+  background-color: #fff;
+}
+
+.wrap-li {
+  margin-bottom: 10px;
+}
+
+.wrap-a {
+  color: #d9d6d6;
+  padding-right: 40px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.wrap-icon {
+  color: #d9d6d6;
+  font-size: 15px;
+  position: absolute;
+  top: 2px;
+  left: 0;
+}
+
+.wrap-a:hover {
+  transform: translateX(5px);
+}
+
+.wrap-a:hover .wrap-icon {
+  color: #1dd3f8 !important;
+  transform: translateX(5px);
+}
+
+.address {
+  display: flex;
+  padding-left: -10px;
+  margin-bottom: 15px;
+}
+
+a:hover {
+  color: #1dd3f8 !important;
 }

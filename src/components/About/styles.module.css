@@ -61,12 +61,28 @@
   background-color: #fff;
 }
 
+.box1:nth-child(2) .single-offer {
+  border-color: #76b8f5;
+}
+
+.box1:nth-child(3) .single-offer {
+  border-color: #1ccdca;
+}
+
+.box1:nth-child(4) .single-offer {
+  border-color: #f9ca54;
+}
+
+.box1:nth-child(5) .single-offer {
+  border-color: #ff896b;
+}
+
 .single-offer:hover {
   transform: translateY(-5px);
 }
 
 .wrapper-content {
-  margin-left: 8px;
+  margin-left: 15px;
 }
 
 .wrapper-row {

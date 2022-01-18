@@ -1,12 +1,15 @@
 import React from 'react';
 import './Header.css';
+import image from '../../assets/images/logo2.png'
 
 const Header = () => {
     return (
         <div className="header position-fixed">
             <nav className="header-nav">
                 <div className="max-width">
-                    <a href="#" className="header-brand">Ha's Notion</a>
+                    <a href="#" className="nav-brand">
+                        <img style={{ height: "auto", width: "200px", paddingTop: 8 }} src={image} />
+                    </a>
                     <ul className="menu">
                         <li className="menu-item">
                             <a href="#home" className="menu-item-link active">Trang chủ</a>
@@ -18,16 +21,13 @@ const Header = () => {
                             <a href="#product" className="menu-item-link active">Sản phẩm</a>
                         </li>
                         <li className="menu-item">
-                            <a href="#recruitment" className="menu-item-link active">Tuyển dụng</a>
+                            <a href="#environment" className="menu-item-link active">Môi trường làm việc</a>
                         </li>
                         <li className="menu-item">
                             <a href="#news" className="menu-item-link active">Tin tức</a>
                         </li>
                         <li className="menu-item">
-                            <a href="#blog" className="menu-item-link active">Blog</a>
-                        </li>
-                        <li className="menu-item">
-                            <a href="#contact" className="menu-item-link active">Liên hệ</a>
+                            <a href="#partner" className="menu-item-link active">Đối tác</a>
                         </li>
                     </ul>
                 </div>

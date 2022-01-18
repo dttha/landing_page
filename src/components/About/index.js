@@ -1,7 +1,7 @@
 import styles from './styles.module.css';
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAtom } from '@fortawesome/free-solid-svg-icons'
+import { faAtom, faCog, faCompactDisc, faCube, faHandPeace } from '@fortawesome/free-solid-svg-icons'
 const About = () => {
     return (
         <div className={styles.about}>
@@ -23,7 +23,7 @@ const About = () => {
                         </div>
                         <div className={styles["box"] + " " + styles["box1"]}>
                             <div className={`${styles["single-offer"]} d-flex`} style={{ height: "95%" }}>
-                                <FontAwesomeIcon icon={faAtom} style={{ fontSize: 25, color: "#9898f0", width: 40, height: 40 }} />
+                                <FontAwesomeIcon icon={faHandPeace} style={{ fontSize: 25, color: "#76b8f5", width: 40, height: 40 }} />
                                 <div className={styles["wrapper-content"]}>
                                     <h3 className={styles["name"] + " " + styles["dosis-700"]}>T – Trust</h3>
                                     <p className={styles["desc"] + " " + styles["roboto-400"]}>Chúng tôi tin tưởng vào con đường mình đã chọn, vào tầm nhìn và sứ mệnh của công ty.</p>
@@ -32,7 +32,7 @@ const About = () => {
                         </div>
                         <div className={styles["box"] + " " + styles["box1"]}>
                             <div className={`${styles["single-offer"]} d-flex`} style={{ height: "95%" }}>
-                                <FontAwesomeIcon icon={faAtom} style={{ fontSize: 25, color: "#9898f0", width: 40, height: 40 }} />
+                                <FontAwesomeIcon icon={faCompactDisc} style={{ fontSize: 25, color: "#1ccdca", width: 40, height: 40 }} />
                                 <div className={styles["wrapper-content"]}>
                                     <h3 className={styles["name"] + " " + styles["dosis-700"]}>E – Embrace challenges</h3>
                                     <p className={styles["desc"] + " " + styles["roboto-400"]}>Là một công ty công nghệ trẻ và tiên phong, chúng tôi luôn sẵn sàng đón nhận và chinh phục mọi thách thức.</p>
@@ -41,7 +41,7 @@ const About = () => {
                         </div>
                         <div className={styles["box"] + " " + styles["box1"]}>
                             <div className={`${styles["single-offer"]} d-flex`} style={{ height: "95%" }}>
-                                <FontAwesomeIcon icon={faAtom} style={{ fontSize: 25, color: "#9898f0", width: 40, height: 40 }} />
+                                <FontAwesomeIcon icon={faCog} style={{ fontSize: 25, color: "#f9ca54", width: 40, height: 40 }} />
                                 <div className={styles["wrapper-content"]}>
                                     <h3 className={styles["name"] + " " + styles["dosis-700"]}>C – Contribution</h3>
                                     <p className={styles["desc"] + " " + styles["roboto-400"]}>Chúng tôi cam kết đóng góp, cống hiến tuổi trẻ và tri thức của mình vì một tương lai tốt đẹp hơn cho tất cả mọi người.</p>
@@ -50,7 +50,7 @@ const About = () => {
                         </div>
                         <div className={styles["box"] + " " + styles["box1"]}>
                             <div className={`${styles["single-offer"]} d-flex`} style={{ height: "95%" }}>
-                                <FontAwesomeIcon icon={faAtom} style={{ fontSize: 25, color: "#9898f0", width: 40, height: 40 }} />
+                                <FontAwesomeIcon icon={faCube} style={{ fontSize: 25, color: "#ff896b", width: 40, height: 40 }} />
                                 <div className={styles["wrapper-content"]}>
                                     <h3 className={styles["name"] + " " + styles["dosis-700"]}>H – Honesty</h3>
                                     <p className={styles["desc"] + " " + styles["roboto-400"]}>Ở FTECH, chúng tôi coi trong sự trung thực, vì chúng tôi tin rằng sự trung thực là khởi đầu cần thiết cho mọi mối quan hệ tốt đẹp.</p>
