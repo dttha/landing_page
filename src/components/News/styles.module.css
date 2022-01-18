@@ -48,9 +48,14 @@
   border: 1px solid #1dd3f8;
 }
 
+.single-news:hover .date {
+  transform: translateX(0);
+}
+
 .image-news {
   position: relative;
   z-index: 1000;
+  overflow: hidden;
 }
 
 .date {
@@ -60,7 +65,10 @@
   padding: 5px 10px;
   position: absolute;
   top: 0;
+  left: 0;
   font-family: Roboto, sans-serif;
+
+  transform: translateX(-100%);
 }
 
 .content-news {

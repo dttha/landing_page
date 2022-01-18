@@ -5,14 +5,14 @@ import { faAtom, faAward, faCheck, faChessQueen, faDiceFour, faGamepad } from '@
 
 const Product = () => {
     return (
-        <div className={styles.product}>
+        <div className={styles.product} id="product">
             <div className="container">
-                <div className={styles["title-container"]}>
+                <div data-aos="fade-up" className={styles["title-container"]}>
                     <div className={styles["title"] + " " + styles["roboto-400"]}>Sản phẩm</div>
                     <h2 className={styles["p"] + " " + styles["dosis-700"]}>Khách hàng luôn lựa chọn các sản phẩm hàng đầu của chúng tôi</h2>
                     <p className={styles["desc"] + " " + styles["roboto-400"]}>Cốt lõi của một doanh nghiệp thành công là các sản phẩm được yêu thích và tin dùng bởi người dùng. Chúng tôi luôn đầu tư vào việc xây dựng các sản phẩm mang tính đột phá và trải nghiệm tốt nhất cho khách hàng. Đội ngũ của Ftech đã xây dựng các hệ sinh thái về Ecommerce, Edutech, Virtual Assistant... và các sản phẩm dịch vụ hữu ích mang tới tiện ích tối đa cho doanh nghiệp và khách hàng.</p>
                 </div>
-                <div className={styles["wrapper"]}>
+                <div data-aos="fade-up" className={styles["wrapper"]}>
                     <div className="row align-items-center">
                         <div className={styles["category-product"]}>
                             <ul className={styles["wrapper-ul"]}>

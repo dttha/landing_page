@@ -6,7 +6,7 @@ import { faAdjust, faAllergies, faEye } from '@fortawesome/free-solid-svg-icons'
 const Home = () => {
     return (
         <div>
-            <div className={styles.home}>
+            <div className={styles.home} id="home">
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-lg-6">
@@ -20,7 +20,7 @@ const Home = () => {
             </div>
             <div className={styles["container-features"] + " " + styles["mt-70"]}>
                 <div className={styles["features"]}>
-                    <div className={styles["row"]}>
+                    <div data-aos="fade-up" className={styles["row"]}>
                         <div className={styles["sub-features"] + " " + styles["sub-features-1"]}>
                             <div className={styles["single-features"]} style={{ height: "95%" }}>
                                 <FontAwesomeIcon icon={faEye} style={{ color: '#1dd3f8', fontSize: 50, padding: 10, border: "1px solid #1dd3f8", borderRadius: "50%" }} />

@@ -6,6 +6,9 @@
   max-width: 1300px;
   padding: 0 80px;
   margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .header-nav {
   position: fixed;
@@ -16,26 +19,25 @@
   color: #fff;
   font-size: 40px;
   line-height: 70px;
-  padding: 18px 0;
   display: inline-block;
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 .menu {
-  float: right;
   margin-right: 20px;
   margin-top: 16px;
+  transition: 0s;
 }
 .menu .menu-item {
   display: inline-block;
-  line-height: 80px;
+  line-height: 60px;
   margin: 0 5px;
 }
 .menu .menu-item .menu-item-link {
   color: #fff;
   text-transform: uppercase;
-  padding: 5px;
   border-radius: 5px;
   font-size: 15px;
+  padding: 5px;
   font-family: "Roboto", sans-serif;
 }
 .menu .menu-item .active,
@@ -44,4 +46,29 @@
 }
 .nav-toggle {
   cursor: pointer;
+}
+#btn-menu {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  #btn-menu {
+    display: block;
+  }
+  .menu {
+    float: none;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: -100%;
+    width: 100%;
+    background-color: rgba(4, 6, 60, 1);
+    margin: 0;
+    transition: 0.5s;
+  }
+
+  .show-menu {
+    left: 0;
+  }
 }

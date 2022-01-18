@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAtom, faCog, faCompactDisc, faCube, faHandPeace } from '@fortawesome/free-solid-svg-icons'
 const About = () => {
     return (
-        <div className={styles.about}>
+        <div className={styles.about} id="about">
             <div className="container">
                 <div className={styles["title-container"]}>
                     <div className={styles["title"] + " " + styles["roboto-400"]}>Về chúng tôi</div>

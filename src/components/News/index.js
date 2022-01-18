@@ -5,14 +5,14 @@ import { faPlus } from '@fortawesome/free-solid-svg-icons'
 
 const News = () => {
     return (
-        <div className={styles.news}>
+        <div className={styles.news} id="news">
             <div className="container">
-                <div className={styles["title-container"]}>
+                <div data-aos="fade-down" className={styles["title-container"]}>
                     <div className={styles["title"] + " " + styles["roboto-400"]}>Tin tức</div>
                     <h2 className={styles["p"] + " " + styles["dosis-700"]}>Tin gần đây</h2>
                     <p className={styles["desc"] + " " + styles["roboto-400"]}>Tin tức mới nhất từ chúng tôi</p>
                 </div>
-                <div className="row">
+                <div data-aos="fade-up" className="row">
                     <div className="col-lg-4 col-md-6 ">
                         <div className={styles["single-news"]}>
                             <div className={styles["image-news"]} style={{ marginBottom: 10 }}>

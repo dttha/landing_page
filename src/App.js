@@ -9,7 +9,9 @@ import Product from './components/Product';
 import News from './components/News';
 import Partner from './components/Partner';
 import Footer from './components/Footer';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init({ once: true })
 function App() {
   return (
     <React.Fragment>

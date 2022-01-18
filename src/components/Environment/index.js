@@ -4,14 +4,14 @@ import styles from './styles.module.css'
 
 const Environment = () => {
     return (
-        <div className={styles.environment}>
+        <div className={styles.environment} id="environment">
             <div className="container">
-                <div className={styles["title-container"]}>
+                <div data-aos="fade-up" className={styles["title-container"]}>
                     <div className={styles["title"] + " " + styles["roboto-400"]}>Không gian văn phòng</div>
                     <h2 className={styles["p"] + " " + styles["dosis-700"]}>Môi trường làm việc trẻ trung, năng động.</h2>
                     <p className={styles["desc"] + " " + styles["roboto-400"]}>Môi trường làm việc trẻ trung, năng động là những gì chúng tôi hướng tới.</p>
                 </div>
-                <div className="row">
+                <div data-aos="fade-up" className="row">
                     <div className="col-lg-4 col-sm-6 ">
                         <div className={styles["wrapper-card"]}>
                             <img src={require("../../assets/images/e1.jpg")} style={{ height: "262px", objectFit: "cover", width: "100%" }}></img>
