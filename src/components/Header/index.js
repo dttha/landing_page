@@ -22,7 +22,6 @@ const Header = () => {
                     <a href="#" className="nav-brand">
                         <img style={{ height: "auto", width: "200px", paddingTop: 8 }} src={image} />
                     </a>
-                    {/* <input type="checkbox" style={{ opacity: 0, position: "absolute" }} /> */}
                     <button id="btn-menu" style={{ background: "transparent", border: 'none', color: "#fff", fontSize: 30 }}>
                         <i class="fas fa-bars"></i>
                     </button>
